@@ -34,7 +34,7 @@ function Add({setUploadResponse}) {
   }
   return (
     <>
-     <button onClick={handleShow} className='btn btn-primary m-5 p-3'>Add Employee</button>
+     <div className='w-100 d-flex justify-content-end align-items-end container me-4'><button onClick={handleShow} className='btn btn-primary  m-5 p-3'>Add Employee</button></div>
      <Modal
         show={show}
         onHide={handleClose}
